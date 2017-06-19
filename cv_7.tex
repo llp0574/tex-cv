@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{fontawesome}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Linpu} % Your first name
+\familyname{Li} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+% \address{123 Broadway}{City, State 12345}
+\mobile{(+86)15528252588}
+% \phone{(000) 111 1112}
+% \fax{(000) 111 1113}
+\email{llp0574@gmail.com}
+% \homepage{https://github.com/llp0574}{Github} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\photo[70pt][0.4pt]{pictures/avator} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-2] % Dummy text
+% \lipsum[4] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+% \cventry{2011--2012}{Masters of Commerce}{The University of California}{Berkeley}{\textit{GPA -- 8.0}}{First Class Honours}  % Arguments not required can be left empty
+\cventry{2010--2014}{Bachelor Of Software Engineering}{University of Electronic Science and Technology}{China}{}{Specialized in Computer}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Vocational}
+
+% \cventry{2016--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
+\cventry{2016--Present}{Senior Frontend Developer}{}{Beijing Hansight Chengdu R\&D Center}{}{Focused on developing data visualization for products of big data security.
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item Developed system for network traffic analysis
+\item Developed security analysis system for enterprise
+\item Developed system for user behavior analysis
+\item Developed platform for threat intelligence analysis
+\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{2015--2016}{Frontend Developer}{}{JD Chengdu R\&D Center}{}{Focused on devolping platforms for various activities and merchants.
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item Developed system for sale activity management
+\item Developed system for merchant management
+\item Daily template maintenance for activity and merchant
+\end{itemize}}
+
+\cventry{2014--2015}{Frontend Developer}{}{Chengdu HopperClouds technology co., LTD}{}{Focused on devolping systems for recruitment and employment.
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item http://pinbot.me(For recruitment)
+\item http://qz.pinbot.me(For employment, but deprecated)
+\end{itemize}}
+
+%------------------------------------------------
+
+\subsection{Miscellaneous}
+
+\cventry{2013--2014}{Summer Intern}{}{Asiainfo-Linkage Chengdu R\&D Center}{}{}
+\cventry{2012}{Volunteer}{}{QCon}{}{Working as a volunteer at the global software development conference organized by QCon.}
+\cventry{2012}{Volunteer}{}{VLPR Summer School}{}{Working as a volunteer at the USA-Sino Summer School in Vision, Learning, Pattern Recognition(VLPR 2012).}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Awards}
+
+% \cvitem{2011}{School of Business Postgraduate Scholarship}
+% \cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Basic}{Java, Python, PHP, MySQL, Linux}
+\cvitem{Intermediate}{Node.js, React, Vue.js, Elasticsearch, Kibana, nginx}
+\cvitem{Advanced}{HTML5, AngularJS, jQuery, Git, D3.js, ECharts, Sigma.js}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Communication Skills}
+
+% \cvitem{2010}{Oral Presentation at the California Business Conference}
+% \cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Mandarin}{Mothertongue}{}
+\cvitemwithcomment{Cantonese}{Mothertongue}{}
+\cvitemwithcomment{English}{Intermediate}{Conversationally fluent}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Movie}{Music}
+\cvlistdoubleitem{Game}{Basketball}
+\cvlistitem{Reading}
+
+%----------------------------------------------------------------------------------------
+\section{Social}
+\cvitem{\href{https://www.linkedin.com/in/\%E6\%9E\%97\%E7\%92\%9E-\%E6\%9D\%8E-26b119b9/}{\faLinkedin}
+\href{https://github.com/llp0574}{\faGithub}
+\href{https://stackoverflow.com/users/4485333/llp}{\faStackOverflow}
+\href{https://llp0574.github.io/}{\faBook}
+\href{http://lilinpu.herokuapp.com/}{\faHome}}{}
+\end{document}
